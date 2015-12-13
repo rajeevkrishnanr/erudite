@@ -18,7 +18,7 @@ $login-background: #292c2f;
 .login-page-content{
   min-height: 400px;
   padding:50px;
-  background: url('http://www.goodwp.com/images/201211/goodwp.com_26205.jpg') no-repeat center center;
+  background: url("../img/login_bg.jpg")  no-repeat center center;
  background-size: cover;
  // height: 85vh;
  overflow: hidden;
@@ -86,6 +86,3 @@ $login-background: #292c2f;
     }
   }
 }
-
-
-

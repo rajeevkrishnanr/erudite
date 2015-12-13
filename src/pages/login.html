@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
   <button class="menu-icon" type="button" data-toggle></button>
   <div class="title-bar-title">Menu</div>
@@ -6,9 +8,9 @@
 
 <div class="top-bar">
   <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Erudite</li>
-    </ul>
+    <div class="dropdown menu" data-dropdown-menu>
+      <div class="menu-text">Erudite</div>
+    </div>
   </div>
 </div>
 
@@ -20,12 +22,13 @@
       <div class="row column log-in-form">
         <h5 class="">Log in with your Erudite account</h5>
         <label>User ID
-          <input type="text" placeholder="Eg: - 011/CSE/189">
+          <input type="text" placeholder="Eg: - AB201">
         </label>
         <label>Password
           <input type="password" placeholder="Enter your Password">
         </label>
-        <p><a type="submit" class="button expanded">Log In</a></p>
+        <!-- <p><a type="submit" class="button expanded">Log In</a></p> -->
+        <p><a type="submit" href="lecturer.html" class="button expanded">Log In</a></p>
         <p class="text-center"><a href="#">Forgot your password?</a></p>
       </div>
     </form>

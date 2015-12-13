@@ -20,8 +20,12 @@ $login-background: #292c2f;
   padding:50px;
   background: url('http://www.goodwp.com/images/201211/goodwp.com_26205.jpg') no-repeat center center;
  background-size: cover;
- height: 85vh;
+ // height: 85vh;
  overflow: hidden;
+	    position: absolute;
+   	 width: 100%;
+	top:50px;
+	bottom:50px;
 
 }
 
@@ -35,12 +39,21 @@ $login-background: #292c2f;
 
 .top-bar{
   background-color: $login-background;
+  position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
   .menu-text {
     color:white;
   }
 }
 
 .footer {
+  height: 50px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
   background-color: $login-background;
   text-align: center;
   font-size: 1.2rem;
@@ -73,3 +86,6 @@ $login-background: #292c2f;
     }
   }
 }
+
+
+

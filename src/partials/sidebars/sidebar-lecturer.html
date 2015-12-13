@@ -1,0 +1,20 @@
+<div class="sidebar">
+
+    <img class="profile-pic" src="assets/img/lecturer_dp.jpg">
+
+      <ul class="vertical menu" data-accordion-menu>
+        <li class="{{#ifpage 'lecturer'}}active{{/ifpage}}"><a href="lecturer.html">Overview</a></li>
+
+        <li>
+          <a href="#">Batches</a>
+          <ul class="menu vertical nested {{#ifpage 'lecturer-batches'}}is-active{{/ifpage}}" >
+            <li class="{{#ifpage 'lecturer-batches'}}active{{/ifpage}}"><a href="lecturer-batches.html">AB2015</a></li>
+            <li><a href="#">AB2014</a></li>
+            <li><a href="#">DC2015</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Others</a></li>
+      </ul>
+
+
+    </div>

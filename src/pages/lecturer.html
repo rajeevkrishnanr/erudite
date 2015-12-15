@@ -4,5 +4,38 @@ layout: layout_main
 
 <div class="page-content">
 
-  Lecturer Page
+
+<ul class="tabs main-bar" data-tabs id="lecurer-overview-tabs">
+  <li class="tabs-title is-active"><a href="#lecturer-attendance">Attandance</a></li>
+   <li class="tabs-title"><a href="#lecurer-students">Students</a></li>
+</ul>
+
+<div class="tabs-content" data-tabs-content="lecurer-overview-tabs">
+
+  <div class="tabs-panel is-active" id="lecturer-attendance">
+    
+      <div class="row">
+        <div class="small-12 columns">
+        {{> component-time-bar-lecturer}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-6 columns">
+          One
+        </div>
+        <div class="small-6 columns">
+          Two
+        </div>
+      </div>
+   
+  </div>
+  <div class="tabs-panel" id="lecurer-students">
+    <p>three</p>
+    <p>Check me out! I'm a super cool Tab panel with text content!</p>
+  </div>
+</div>
+
+  
+
 </div>

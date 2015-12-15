@@ -1,0 +1,30 @@
+$time-bar-border: black;
+
+.time-bar{
+
+  margin: 10px;
+
+  .time-bar-container{
+    // width: 600px;
+    display: flex;
+    height: 30px;
+    border: 1px solid $time-bar-border;
+  }
+  .time-bar-peroid{
+    flex:1;
+    border-right:solid 1px $time-bar-border;
+    text-align: center;
+    &:last-child{
+      border: none;
+    }
+  }
+
+  .time-bar-helper{
+    display: flex;
+    height: 20px;
+  }
+  .time-bar-helper-unit{
+    flex:1;
+    font-size: 12px;
+  }
+}

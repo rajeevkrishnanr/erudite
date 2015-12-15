@@ -14,8 +14,22 @@
   <div class="page">
     <div class="sidebar">
     
-        <img class="profile-pic" src="assets/img/lecturer_dp.jpg">
+        
+          <div class="profile-group">
+            <div class="profile-pic-group">
+              <img class="profile-pic" src="assets/img/lecturer_dp.jpg">
+               <div class="profile-controls">
+              <a class="logout"><i class="fa fa-power-off alert"></i></a>
+              <a class="setup"><i class="fa fa-question warning"></i></a>
+              <a class="setup"><i class="fa fa-cog primary"></i></a>
+            </div> 
+            </div>     
+             <div class="profile-title">Shalini Rao</div>
+              <div class="profile-title subheader"><small>Lecturer</small></div>
     
+    
+          </div>
+        
           <ul class="vertical menu" data-accordion-menu>
             <li class="active"><a href="lecturer.html">Overview</a></li>
     
@@ -36,7 +50,64 @@
     
     <div class="page-content">
     
-      Lecturer Page
+    
+    <ul class="tabs main-bar" data-tabs id="lecurer-overview-tabs">
+      <li class="tabs-title is-active"><a href="#lecturer-attendance">Attandance</a></li>
+       <li class="tabs-title"><a href="#lecurer-students">Students</a></li>
+    </ul>
+    
+    <div class="tabs-content" data-tabs-content="lecurer-overview-tabs">
+    
+      <div class="tabs-panel is-active" id="lecturer-attendance">
+        
+          <div class="row">
+            <div class="small-12 columns">
+            <div class="time-bar">
+              <div class="time-bar-container">
+                <div class="time-bar-peroid"></div>
+                <div class="time-bar-peroid"></div>
+                <div class="time-bar-peroid"></div>
+                <div class="time-bar-peroid"></div>
+                <div class="time-bar-peroid"></div>
+                <div class="time-bar-peroid"></div>
+                <div class="time-bar-peroid"></div>
+              </div>
+              <div class="time-bar-helper">
+                <div class="time-bar-helper-unit">9:00 AM</div>
+                <div class="time-bar-helper-unit">9:00 AM</div>
+                <div class="time-bar-helper-unit">9:00 AM</div>
+                <div class="time-bar-helper-unit">9:00 AM</div>
+                <div class="time-bar-helper-unit">9:00 AM</div>
+                <div class="time-bar-helper-unit">9:00 AM</div>
+                
+                <div class="time-bar-helper-unit">9:00 AM<span style="float:right;">5:00PM</span></div>
+            
+              </div>
+            
+            
+            </div>
+            
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="small-6 columns">
+              One
+            </div>
+            <div class="small-6 columns">
+              Two
+            </div>
+          </div>
+       
+      </div>
+      <div class="tabs-panel" id="lecurer-students">
+        <p>three</p>
+        <p>Check me out! I'm a super cool Tab panel with text content!</p>
+      </div>
+    </div>
+    
+      
+    
     </div>
     
   </div>

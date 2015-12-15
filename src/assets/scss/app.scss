@@ -44,5 +44,10 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import "components/base";
-@import "components/login";
+
+@import "fa-icons/font-awesome";
+
+
+@import "views/base";
+@import "views/login";
+@import "components/time-bar";
